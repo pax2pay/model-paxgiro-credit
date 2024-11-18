@@ -53,9 +53,6 @@
 		"prepare": "npm run build",
 		"clean": "rimraf dist node_modules coverage"
 	},
-	"overrides": {
-		"semver": "7.5.3"
-	},
 	"devDependencies": {
 		"@types/jest": "^29.5.12",
 		"@typescript-eslint/eslint-plugin": "7.7.1",
@@ -70,8 +67,8 @@
 		"typescript": "^5.4.5"
 	},
 	"dependencies": {
-		"authly": "^3.0.12",
-		"isly": "^0.1.14",
-		"isoly": "^2.3.10"
+		"authly": "^3.1.2",
+		"isly": "^0.1.20",
+		"isoly": "^2.3.11"
 	}
 }
